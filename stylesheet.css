@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: none;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#ajax {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
